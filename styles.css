@@ -25,13 +25,28 @@ main {
     padding: 20px;
 }
 
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .product-card {
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    border-radius: 10px; /* Corner radius */
     margin: 10px;
     padding: 20px;
     text-align: center;
+    flex-basis: calc(33.33% - 20px); /* 33.33% width for each card with margin */
 }
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-basis: calc(100% - 20px); /* Full width for each card on smaller screens */
+    }
+}
+
 
 footer {
     background-color: #008000; /* Dark Green */
