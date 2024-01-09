@@ -1,22 +1,31 @@
 body {
-    font-family: 'Arial', sans-serif;
+
+    font-family: 'Poppins', 'Lexend', 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background: linear-gradient(to bottom right, #e6e6e6, #f0f0f0);
+
     color: #333333;
 }
-
-header {
-    background-color: #008000; /* Dark Green */
-    color: #ffffff;
+a {
+text-decoration: none;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+    background-color: greenyellow;
+}
+header, footer {
+    background-color: #f8f400; 
+    color: #530f0f;
     text-align: center;
     padding: 20px;
 }
-
-header img {
-    max-width: 100%;
+.logo{
+    display: inline;
+    text-align: center;
+    width: 150px;
     height: auto;
-}
+} 
 
 main {
     display: flex;
@@ -47,14 +56,7 @@ main {
     }
 }
 
-
-footer {
-    background-color: #008000; /* Dark Green */
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-}
+ 
 
 .contact-info, .team-icons {
     display: flex;
