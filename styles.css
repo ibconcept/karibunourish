@@ -4,8 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #e6e6e6, #f0f0f0);
-    color: #333333;
-    display: inline-block;
+    color: #333333; 
+}
+.images {
+    height: auto;
+    width: 20vw;
 }
 a {
 text-decoration: none;
@@ -29,6 +32,7 @@ header, footer {
 
 main {
     display: flex;
+    margin: 5%;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
