@@ -9,6 +9,7 @@ body {
 .images {
     height: auto;
     width: 20vw;
+    border-radius: 10px;
 }
 a {
 text-decoration: none;
@@ -36,11 +37,12 @@ main {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    
 }
 
 .product-cards {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: safe ;
     flex-wrap: wrap;
     flex-direction: row;
 }
