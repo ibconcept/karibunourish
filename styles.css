@@ -63,13 +63,7 @@ main {
     justify-content: space-around;
     margin-bottom: 10px;
 }
-
-.credit {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
+ 
 
 @media (max-width: 768px) {
     header h1 {
